@@ -43,7 +43,7 @@ public class IMC {
 
     public String toString(){
         if(this.imc != 0){
-            return String.valueOf(this.getImc())+" ( "+this.getTipo()+" )";
+            return String.valueOf(this.getImc())+" | "+this.getTipo()+" |";
         }else{
             classificaIMC();
             return this.getTipo();
